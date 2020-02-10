@@ -21,10 +21,25 @@
                                 <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ooP-sM-K5C">
+                                <rect key="frame" x="79" y="511" width="217" height="42"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="217" id="6cK-18-0S2"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="217" id="Vdf-bX-vEn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Show Text">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="ooP-sM-K5C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LMN-aN-vft"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ooP-sM-K5C" secondAttribute="bottom" constant="114" id="THS-Z4-fhX"/>
                             <constraint firstItem="Myt-D0-xBS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZHx-aF-QwZ"/>
+                            <constraint firstItem="ooP-sM-K5C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x7Q-W1-zrm"/>
                             <constraint firstItem="Myt-D0-xBS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="114" id="zIG-kc-bGf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -32,7 +47,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="110"/>
+            <point key="canvasLocation" x="138.40000000000001" y="109.29535232383809"/>
         </scene>
     </scenes>
 </document>
